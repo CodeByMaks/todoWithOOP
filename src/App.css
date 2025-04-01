@@ -1,0 +1,82 @@
+*{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box{
+	width: 300px;
+	height: 200px;
+	display: flex;
+	padding: 10px 0px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 10px gray;
+	border-radius: 15px;
+}
+
+.button__cont{
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: none;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.box__check{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.box__check input{
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+}
+
+.box__tool{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.box__tool button {
+	background-color: blue;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.box .box__button--delete{
+	background-color: red;
+	cursor: pointer;
+}
+
+.addModal{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.addModal input{
+	width: 200px;
+	padding: 10px 10px;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
