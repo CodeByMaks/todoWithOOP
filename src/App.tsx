@@ -3,8 +3,8 @@ import './App.css'
 import { ITodo } from './types/type'
 import { Modal } from 'antd'
 
-class App extends Component<void, { data: ITodo[], open: boolean, addTitle: string, addDescription: string, editTitle: string, editDescription: string, editId: number | null  }> {
-	constructor(props: void) {
+class App extends Component<object, { data: ITodo[], open: boolean, addTitle: string, addDescription: string, editTitle: string, editDescription: string, editId: number | null }> {
+	constructor(props: object) {
 		super(props)
 		this.state = {
 			data: [
